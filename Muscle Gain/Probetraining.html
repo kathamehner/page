@@ -1,0 +1,233 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Probetraining.com</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #0080FF;
+        }
+
+        img {
+            padding-left: 10px;
+            float: left;
+        }
+
+        #hier {
+            border: 7px;
+            background-color: white;
+            color: black;
+            width: 400px;
+            height: 60px;
+            text-align: center;
+            margin: 0px auto
+        }
+
+        #kopf2 {
+            padding-top: 50px;
+            font-weight: bold;
+            font-size: 80px;
+            font-family: Verdana, Geneva, sans-serif;
+            text-align: center;
+        }
+
+        #zentrieren {
+            margin: 50px auto;
+            width: 1000px;
+        }
+
+        #kopf {
+            height: 100px;
+            background-color: #0080FF;
+        }
+
+        #Standorte {
+            text-align: center;
+        }
+
+        .button {
+            border-radius: 3px;
+            background-color: #045FB4;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            float: right;
+            border: 2px solid black;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+            color: black;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        input {
+            width: 400px;
+            height: 25px;
+        }
+
+        select {
+            width: 400px;
+            height: 25px;
+        }
+
+        #InhaltGesamt {
+            width: 600px;
+            margin: 0 auto
+        }
+
+        #LinkeSpalte {
+            float: left;
+            width: 500px;
+        }
+
+        #RechteSpalte {
+            float: left;
+            width: 100px;
+        }
+
+        #hier2 {
+            border: 7px;
+            background-color: white;
+            color: black;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            margin: 0px auto;
+            margin-top: 300px
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="logo.png" alt="" width="200" height="150" style="margin-left: 50px;" />
+    <div id="zentrieren">
+
+        <div id="kopf">
+
+            <div id="kopf2">Probetraining </div>
+        </div>
+        <div id="navi">
+        </div>
+        <div id="InhaltGesamt">
+            <br>
+            <br>
+            <div id="LinkeSpalte">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="Standorte">
+                    <select>
+						<option>Hier Standort auswählen</option>
+					  <option>Flingern</option>
+					  <option>Bilk</option>
+						<option>Derendorf</option>
+						<option>Gerresheim</option>
+						<option>Unterrath</option>
+						<option>Golzheim</option>
+						<option>Lohausen</option>
+						<option>Wittlaer</option>
+						<option>Kalkum</option>
+						<option>Angermund</option>
+					</select>
+                    <div>
+                        <br>
+
+                        <input id="idName" value="Name" type="text">
+                        <br>
+                        <br>
+                        <input id="idVorname" value="Vorname" type="text">
+                        <br>
+                        <br>
+                        <input id="idEmail" value="E-Mail" type="text">
+                        <br>
+                        <br>
+                        <input id="idTelefonnummer" value="Telefonnummer" type="text">
+                        <br>
+                        <br>
+                        <input id="idDatum" value="Datum" type="text">
+                        <br>
+                        <br>
+                        <select>
+						<option>Uhrzeit</option>
+						<option>8 Uhr</option>
+						<option>9 Uhr</option>
+						<option>10 Uhr</option>
+						<option>11 Uhr</option>
+						<option>12 Uhr</option>
+						<option>13 Uhr</option>
+						<option>14 Uhr</option>
+						<option>15 Uhr</option>
+						<option>16 Uhr</option>
+						<option>17 Uhr</option>
+						<option>18 Uhr</option>
+						<option>19 Uhr</option>
+						</select>
+                        <br>
+                        <br>
+                        <div id="hier">
+                            <br>
+                            <p> Falls Sie an einem Kurs teilnehmen wollen dann hier auswählen!</p>
+                        </div>
+                        <br>
+                        <select>
+							<option>Kurs</option>
+							<option>Pilates</option>
+							<option>Yoga</option>
+							<option>Wirbelsäulengymnastik</option>
+							<option>Zumba</option>
+						</select>
+                        <br>
+
+                        <button class="button" style="position: fixed; right: 10px; bottom: 10px"><span>Senden </span></button>
+                    </div>
+                </div>
+            </div>
+            <div id="RechteSpalte">
+                <div id="hier2">
+                    <p>Ausweis nicht vergessen! <br> Handtuch und Getränk werden nicht gestellt
+                    </p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
